@@ -1,8 +1,10 @@
+import { Outlet } from "react-router-dom";
+import { AppBar } from "./AppBar";
 import { Box } from "./Box";
 
 export const Layout = () => {
     return <Box display="grid" gridTemplateColumns="280px 1fr">
-    <div>Appbar</div>
-    <div>Content</div>
+    <AppBar/>
+   <Outlet />
     </Box>;
 };
