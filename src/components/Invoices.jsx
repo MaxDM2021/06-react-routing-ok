@@ -3,6 +3,7 @@ import styled from 'styled-components';
 import { useState, useEffect } from 'react';
 import { NavLink, Outlet } from 'react-router-dom';
 import { Box } from './Box';
+import { Suspense } from 'react';
 
 
 const NavItem = styled(NavLink)`
@@ -22,11 +23,7 @@ border-radius: 8px;
 `;
 
 
-
-
-
-
-export const Invoices = () => {
+ const Invoices = () => {
   const [invoices, setInvoices] = useState([]);
 
   useEffect(() => {
@@ -48,7 +45,11 @@ export const Invoices = () => {
           </NavItem>
         ))}
       </Box>
+      <Suspense fallback={null}>
       <Outlet/>
+      </Suspense>
     </Box>
   );
 };
+
+export default Invoices
