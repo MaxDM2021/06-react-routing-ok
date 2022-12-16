@@ -1,13 +1,19 @@
 {
   "files": {
     "main.css": "/06-react-routing-ok/static/css/main.c3d5249d.css",
-    "main.js": "/06-react-routing-ok/static/js/main.d4e5f939.js",
+    "main.js": "/06-react-routing-ok/static/js/main.5e2b46b1.js",
+    "static/js/743.d65186f6.chunk.js": "/06-react-routing-ok/static/js/743.d65186f6.chunk.js",
+    "static/js/56.6fb69b77.chunk.js": "/06-react-routing-ok/static/js/56.6fb69b77.chunk.js",
+    "static/js/803.69c4b921.chunk.js": "/06-react-routing-ok/static/js/803.69c4b921.chunk.js",
     "index.html": "/06-react-routing-ok/index.html",
     "main.c3d5249d.css.map": "/06-react-routing-ok/static/css/main.c3d5249d.css.map",
-    "main.d4e5f939.js.map": "/06-react-routing-ok/static/js/main.d4e5f939.js.map"
+    "main.5e2b46b1.js.map": "/06-react-routing-ok/static/js/main.5e2b46b1.js.map",
+    "743.d65186f6.chunk.js.map": "/06-react-routing-ok/static/js/743.d65186f6.chunk.js.map",
+    "56.6fb69b77.chunk.js.map": "/06-react-routing-ok/static/js/56.6fb69b77.chunk.js.map",
+    "803.69c4b921.chunk.js.map": "/06-react-routing-ok/static/js/803.69c4b921.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.c3d5249d.css",
-    "static/js/main.d4e5f939.js"
+    "static/js/main.5e2b46b1.js"
   ]
 }
